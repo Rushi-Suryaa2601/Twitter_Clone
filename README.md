@@ -13,15 +13,17 @@ This project is a simple clone of Twitter's home page, created using Tailwind CS
 - CSS (via Tailwind CSS)
 
 ## Screenshots
-![1](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/9a17543c-3686-4034-bff1-b58b95003a8c)
-![2](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/6720a379-ab03-4e05-bea3-700dc321358f)
-![3](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/d411dfc3-ed0c-4e60-80c6-7015c923e640)
-![4](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/445a20b2-0e40-49f0-bea6-5d80cc4f5ff5)
+![1 1](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/1e0665a8-f632-4098-a395-0d9261ea2678)
+![1 2](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/079fec55-9900-49ca-87da-919a0e186312)
+![1 3](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/6112d92d-effc-4adb-af9b-97e0a464a62a)
+![1 4](https://github.com/Rushi-Suryaa2601/Twitter_Clone/assets/151115201/85c24841-b429-4204-90e9-b39128d12af7)
+
+
 
 
 
 ## Usage
-1. Clone the repository: `git clone [https://github.com/your-username/twitter-clone`
+1. Clone the repository: `git clone [(https://github.com/Rushi-Suryaa2601/Twitter_Clone)]`
 2. Open the `index.html` file in your web browser.
 
 
