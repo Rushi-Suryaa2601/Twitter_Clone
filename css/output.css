@@ -578,10 +578,6 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -618,12 +614,12 @@ video {
   right: 1.25rem;
 }
 
-.top-2 {
-  top: 0.5rem;
-}
-
 .top-0 {
   top: 0px;
+}
+
+.top-2 {
+  top: 0.5rem;
 }
 
 .m-2 {
@@ -632,11 +628,6 @@ video {
 
 .m-3 {
   margin: 0.75rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .my-4 {
@@ -653,12 +644,12 @@ video {
   margin-bottom: 0px;
 }
 
-.ml-\[25px\] {
-  margin-left: 25px;
+.ml-\[10px\] {
+  margin-left: 10px;
 }
 
-.ml-\[45px\] {
-  margin-left: 45px;
+.ml-\[33px\] {
+  margin-left: 33px;
 }
 
 .mr-3 {
@@ -677,40 +668,12 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-\[9px\] {
-  margin-top: 9px;
-}
-
-.ml-\[10px\] {
-  margin-left: 10px;
-}
-
-.ml-\[28px\] {
-  margin-left: 28px;
-}
-
-.ml-\[30px\] {
-  margin-left: 30px;
-}
-
-.ml-\[33px\] {
-  margin-left: 33px;
-}
-
 .mt-\[80px\] {
   margin-top: 80px;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-\[10px\] {
-  margin-bottom: 10px;
-}
-
-.ml-\[50px\] {
-  margin-left: 50px;
+.mt-\[9px\] {
+  margin-top: 9px;
 }
 
 .flex {
@@ -773,6 +736,10 @@ video {
   width: 80px;
 }
 
+.w-\[95\%\] {
+  width: 95%;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -782,20 +749,16 @@ video {
   width: 100%;
 }
 
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[95\%\] {
-  width: 95%;
-}
-
-.w-\[93\%\] {
-  width: 93%;
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.resize {
+  resize: both;
 }
 
 .flex-row {
@@ -826,6 +789,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-0 {
+  gap: 0px;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
@@ -854,18 +821,10 @@ video {
   gap: 4rem;
 }
 
-.gap-0 {
-  gap: 0px;
-}
-
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
-.overflow-auto {
-  overflow: auto;
 }
 
 .rounded-3xl {
@@ -956,6 +915,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-14 {
+  padding: 3.5rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1031,12 +994,16 @@ video {
   padding-top: 1.25rem;
 }
 
-.text-center {
-  text-align: center;
+.pr-3 {
+  padding-right: 0.75rem;
 }
 
-.text-start {
-  text-align: start;
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -1119,11 +1086,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1203,26 +1165,7 @@ video {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:block {
-    display: block;
-  }
-}
-
 @media (min-width: 1024px) {
-  .lg\:m-0 {
-    margin: 0px;
-  }
-
-  .lg\:m-\[0px\] {
-    margin: 0px;
-  }
-
-  .lg\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1230,14 +1173,6 @@ video {
 
   .lg\:ml-\[45px\] {
     margin-left: 45px;
-  }
-
-  .lg\:ml-\[10px\] {
-    margin-left: 10px;
-  }
-
-  .lg\:ml-\[55px\] {
-    margin-left: 55px;
   }
 
   .lg\:ml-\[75px\] {
@@ -1252,35 +1187,68 @@ video {
     display: none;
   }
 
-  .lg\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .lg\:w-\[90\%\] {
     width: 90%;
   }
 
-  .lg\:gap-\[25px\] {
-    gap: 25px;
+  .lg\:w-0 {
+    width: 0px;
+  }
+
+  .lg\:w-3 {
+    width: 0.75rem;
+  }
+
+  .lg\:w-36 {
+    width: 9rem;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:gap-\[80px\] {
     gap: 80px;
   }
 
-  .lg\:gap-\[80-px\] {
-    gap: 80-px;
+  .lg\:p-3 {
+    padding: 0.75rem;
   }
-}
 
-@media (min-width: 1280px) {
-  .xl\:block {
-    display: block;
+  .lg\:p-11 {
+    padding: 2.75rem;
   }
-}
 
-@media (min-width: 1536px) {
-  .\32xl\:hidden {
-    display: none;
+  .lg\:p-\[30px\] {
+    padding: 30px;
+  }
+
+  .lg\:pt-9 {
+    padding-top: 2.25rem;
+  }
+
+  .lg\:pt-\[20px\] {
+    padding-top: 20px;
+  }
+
+  .lg\:pt-\[30px\] {
+    padding-top: 30px;
+  }
+
+  .lg\:pt-\[100px\] {
+    padding-top: 100px;
+  }
+
+  .lg\:font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
